@@ -13,7 +13,6 @@ function Post({ name, message, email, timestamp, image, postImage }) {
             width="40"
             height="40"
             className="rounded-full object-cover"
-            alt=""
           />
           <div>
             <p className="font-medium">{name}</p>
