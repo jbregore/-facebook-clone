@@ -40,7 +40,7 @@ export async function getServerSideProps(){
   const docs = posts.docs.map((post) => ({
     id: post.id,
     ...post.data(),
-    timestamp: new Date(post.data().timestamp.seconds * 1000).toLocaleString()
+    timestamp: null
   }))
 
   return {

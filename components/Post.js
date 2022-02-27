@@ -16,13 +16,16 @@ function Post({ name, message, email, timestamp, image, postImage }) {
           />
           <div>
             <p className="font-medium">{name}</p>
-            {timestamp}
+            {/* {timestamp} */}
+            <p className="text-xs text-gray-400">
+              {new Date(timestamp?.toDate()).toLocaleString()}
+            </p>
             {/* {timestamp ? (
-                <p className="text-xs text-gray-400">
-                {new Date(timestamp?.toDate()).toLocaleString()}
-              </p>
+              //   <p className="text-xs text-gray-400">
+              //   {new Date(timestamp?.toDate()).toLocaleString()}
+              // </p>
                 ) : <p className="text-xs text-gray-400">Loading</p>} */}
-            
+
           </div>
         </div>
 
@@ -32,7 +35,7 @@ function Post({ name, message, email, timestamp, image, postImage }) {
       {/* image */}
       {postImage && (
         <div className="relative h-56 md:h-96 bg-white">
-          <Image src={postImage} objectFit="cover" layout="fill" alt=""/>
+          <Image src={postImage} objectFit="cover" layout="fill" alt="" />
         </div>
       )}
 
