@@ -21,7 +21,7 @@ export default function Home({ posts }) {
 
       <main className='flex'>
         {/* Sidebar */}
-        <Sidebar />
+        <Sidebar/>
         {/* Feed */}
         <Feed posts={posts}/>
 

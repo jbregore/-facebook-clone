@@ -52,7 +52,7 @@ function Header() {
 
 
       {/* Header right */}
-      <div className="flex items-center sm:space-x-2 justify-end">
+      <div className="hidden lg:flex items-center sm:space-x-2 justify-end">
         {/* Profile pic */}
         <Image 
         src="https://firebasestorage.googleapis.com/v0/b/midterm-redux.appspot.com/o/274213862_253831063584385_2282428805788619329_n.jpg?alt=media&token=d4d442a6-8d7f-4abf-88d3-1bc9b34ea282" 

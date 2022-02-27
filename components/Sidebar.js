@@ -14,7 +14,7 @@ import SidebarRow from "./SidebarRow";
 
 function Sidebar() {
   return (
-    <div className="p-2 mt-5 max-w[600px] xl:min-w-[300px]">
+    <div className="hidden lg:flex flex-col p-2 mt-5 max-w[600px] xl:min-w-[300px]">
         <SidebarRow src={"https://firebasestorage.googleapis.com/v0/b/midterm-redux.appspot.com/o/274213862_253831063584385_2282428805788619329_n.jpg?alt=media&token=d4d442a6-8d7f-4abf-88d3-1bc9b34ea282"}
          title="Jb Regore"/>
 
