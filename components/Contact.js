@@ -11,6 +11,7 @@ function Contact({ src, name }) {
                 width={50}
                 height={50}
                 layout="fixed"
+                alt=""
             />
             <p>{name}</p>
             <div className='absolute bottom-2 left-9 bg-green-500 h-3 w-3 rounded-full'>

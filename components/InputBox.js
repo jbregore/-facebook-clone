@@ -71,6 +71,7 @@ function InputBox() {
           width="40"
           height="40"
           layout="fixed"
+          alt=""
         />
 
         <form className="flex flex-1">
@@ -92,7 +93,7 @@ function InputBox() {
             hover:brightness-110 transition duration-150
             transform hover:scale-105 cursor-pointer"
           >
-            <img className="h-10 object-contain" src={imageToPost} alt="" />
+            <Image className="h-10 object-contain" src={imageToPost} alt="" />
           </div>
         )}
       </div>

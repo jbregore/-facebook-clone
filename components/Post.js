@@ -13,6 +13,7 @@ function Post({ name, message, email, timestamp, image, postImage }) {
             width="40"
             height="40"
             className="rounded-full object-cover"
+            alt=""
           />
           <div>
             <p className="font-medium">{name}</p>
@@ -32,7 +33,7 @@ function Post({ name, message, email, timestamp, image, postImage }) {
       {/* image */}
       {postImage && (
         <div className="relative h-56 md:h-96 bg-white">
-          <Image src={postImage} objectFit="cover" layout="fill" />
+          <Image src={postImage} objectFit="cover" layout="fill" alt=""/>
         </div>
       )}
 
