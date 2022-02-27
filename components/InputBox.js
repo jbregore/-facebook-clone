@@ -93,7 +93,7 @@ function InputBox() {
             hover:brightness-110 transition duration-150
             transform hover:scale-105 cursor-pointer"
           >
-            <Image className="h-10 object-contain" src={imageToPost} alt="" />
+            <img className="h-10 object-contain" src={imageToPost} alt="" />
           </div>
         )}
       </div>
